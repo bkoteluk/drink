@@ -1,4 +1,5 @@
 public class Drink {
+    String drinkName;
     double prize;
     boolean isAlcohol;
 
