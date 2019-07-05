@@ -31,5 +31,22 @@ public class DrinkMenu {
         drink2.ingredient3.name = "Ice";
         drink2.ingredient3.quantity = 50;
 
+        System.out.println("Available Drinks:");
+        System.out.println("1) Price: " + drink1.prize + "; alkochol - " + drink1.isAlcohol);
+        System.out.println("   ingredients: ");
+        System.out.println("              - " + drink1.ingredient1.name + " " + drink1.ingredient1.quantity + " units");
+        System.out.println("              - " + drink1.ingredient2.name + " " + drink1.ingredient2.quantity + " units");
+        System.out.println("              - " + drink1.ingredient3.name + " " + drink1.ingredient3.quantity + " units");
+        System.out.print("   Drink Volume :  ");
+        System.out.println((drink1.ingredient1.quantity+drink1.ingredient2.quantity+drink1.ingredient3.quantity) + " units\n");
+
+        System.out.println("2) Price: " + drink2.prize + "; alkochol - " + drink2.isAlcohol);
+        System.out.println("   ingredients: ");
+        System.out.println("              - " + drink2.ingredient1.name + " " + drink2.ingredient1.quantity + " units");
+        System.out.println("              - " + drink2.ingredient2.name + " " + drink2.ingredient2.quantity + " units");
+        System.out.println("              - " + drink2.ingredient3.name + " " + drink2.ingredient3.quantity + " units");
+        System.out.print("   Drink Volume :  ");
+        System.out.println((drink2.ingredient1.quantity+drink2.ingredient2.quantity+drink2.ingredient3.quantity) + " units\n");
+
     }
 }
